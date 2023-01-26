@@ -2,7 +2,8 @@ const readlineSync = require('readline-sync');
 
 
 
-let matrix = [[0,0,0], [0,0,0], [0,0,0]];
+// let matrix = [[0,0,0], [0,0,0], [0,0,0]];
+let matrix = [[1,1,1], [3,2,1], [2,1,2]];
 
 // Function to input a matrix
 function inputMatrix(matrix) {
